@@ -1,4 +1,5 @@
 import Navbar from './src/components/Navbar';
+import Footer from './src/components/Footer';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <p className="text-lg text-gray-700">Explore nosso cardápio e aproveite as delícias que oferecemos.</p>
       </main>
     </div>
+    <Footer />
     </>
   );
 }
